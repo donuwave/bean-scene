@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/donu/frontend/bean-scene/src/screens/home/ui/Home.tsx"],"sourcesContent":["\"use client\";\n\nimport React from \"react\";\n\nexport const Home = () => {\n  return <div>ff</div>;\n};\n"],"names":[],"mappings":";;;;AAAA;;AAIO,MAAM,OAAO;IAClB,qBAAO,8OAAC;kBAAI;;;;;;AACd","debugId":null}}]
+}

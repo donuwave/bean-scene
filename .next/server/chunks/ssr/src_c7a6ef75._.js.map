@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/donu/frontend/bean-scene/src/screens/home/ui/home.styles.ts"],"sourcesContent":["import styled from \"styled-components\";\n\nexport const SHome = styled.div`\n  background-image: url(\"/header.jpg\");\n  width: 100%;\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat;\n  height: 100vh;\n  padding-top: 200px;\n`;\n"],"names":[],"mappings":";;;AAAA;;AAEO,MAAM,QAAQ,2KAAA,CAAA,UAAM,CAAC,GAAG,CAAC;;;;;;;;AAQhC,CAAC","debugId":null}},
+    {"offset": {"line": 27, "column": 0}, "map": {"version":3,"sources":["file:///Users/donu/frontend/bean-scene/src/features/home-main/ui/HomeMain.tsx"],"sourcesContent":["import React from \"react\";\n\nexport const HomeMain = () => {\n  return <div>HomeMain</div>;\n};\n"],"names":[],"mappings":";;;;;AAEO,MAAM,WAAW;IACtB,qBAAO,8OAAC;kBAAI;;;;;;AACd","debugId":null}},
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file:///Users/donu/frontend/bean-scene/src/features/home-main/index.ts"],"sourcesContent":["export * from \"./ui/HomeMain\";\n"],"names":[],"mappings":";AAAA","debugId":null}},
+    {"offset": {"line": 65, "column": 0}, "map": {"version":3,"sources":["file:///Users/donu/frontend/bean-scene/src/screens/home/ui/Home.tsx"],"sourcesContent":["\"use client\";\n\nimport React from \"react\";\n\nimport { SHome } from \"./home.styles\";\nimport {HomeMain} from \"@/features/home-main\";\n\nexport const Home = () => {\n  return <SHome>\n    <HomeMain/>\n  </SHome>;\n};\n"],"names":[],"mappings":";;;;AAIA;AACA;AAAA;AALA;;;;AAOO,MAAM,OAAO;IAClB,qBAAO,8OAAC,8IAAA,CAAA,QAAK;kBACX,cAAA,8OAAC,kJAAA,CAAA,WAAQ;;;;;;;;;;AAEb","debugId":null}}]
+}

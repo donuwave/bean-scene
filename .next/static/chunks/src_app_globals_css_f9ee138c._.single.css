@@ -1,0 +1,30 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+*, :before, :after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-family: var(--font-playfair-sans), serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-clicker-script), cursive;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+/*# sourceMappingURL=src_app_globals_css_f9ee138c._.single.css.map*/

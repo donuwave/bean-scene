@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/donu/frontend/bean-scene/src/app/%28private%29/layout.tsx"],"sourcesContent":["import { ReactNode } from \"react\";\n\ntype RootLayoutProps = Readonly<{\n  children: ReactNode;\n}>;\n\nexport default function RootLayout({ children }: RootLayoutProps) {\n  return (\n    <div className=\"flex flex-col max-w-auto h-[100dvh]\">\n      <Header />\n      <div className=\"flex max-w-400 mx-auto flex-1 w-[100%] mb-20\">\n        {children}\n      </div>\n      <Footer />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAMe,SAAS,WAAW,EAAE,QAAQ,EAAmB;IAC9D,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;;;;;0BACD,8OAAC;gBAAI,WAAU;0BACZ;;;;;;0BAEH,8OAAC;;;;;;;;;;;AAGP","debugId":null}}]
+}
