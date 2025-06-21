@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":["file:///Users/donu/frontend/bean-scene/src/screens/home/ui/Home.tsx"],"sourcesContent":["\"use client\";\n\nimport React from \"react\";\n\nimport { HomeMain } from \"@/features/home-main\";\n\nexport const Home = () => {\n  return (\n    <>\n      <HomeMain />\n    </>\n  );\n};\n"],"names":[],"mappings":";;;;AAIA;AAAA;AAJA;;;AAMO,MAAM,OAAO;IAClB,qBACE;kBACE,cAAA,6LAAC,4JAAA,CAAA,WAAQ;;;;;;AAGf;KANa","debugId":null}}]
-}

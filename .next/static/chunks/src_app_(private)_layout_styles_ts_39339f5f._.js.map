@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/donu/frontend/bean-scene/src/app/%28private%29/layout.styles.ts"],"sourcesContent":["\"use client\";\n\nimport styled from \"styled-components\";\n\nexport const SLayout = styled.div`\n  display: flex;\n  flex-direction: column;\n  height: 100dvh;\n`;\n\nexport const SContainer = styled.div`\n  display: flex;\n  max-width: 1180px;\n  margin: 0 auto;\n  flex: 1;\n  width: 100%;\n  margin-bottom: 20px;\n`;\n"],"names":[],"mappings":";;;;AAEA;AAFA;;AAIO,MAAM,UAAU,yLAAA,CAAA,UAAM,CAAC,GAAG,CAAC;;;;AAIlC,CAAC;AAEM,MAAM,aAAa,yLAAA,CAAA,UAAM,CAAC,GAAG,CAAC;;;;;;;AAOrC,CAAC","debugId":null}}]
-}

@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/donu/frontend/bean-scene/src/app/%28providers%29/MuiProvider.tsx"],"sourcesContent":["'use client';\n\nimport { AppProvider } from '@toolpad/core/AppProvider';\nimport React, { FC, PropsWithChildren } from 'react';\n\nimport { getTheme, useUserSettings } from '@/entities/user-settings';\n\nexport const MuiProvider: FC<PropsWithChildren> = ({ children }) => {\n  const settings = useUserSettings();\n  const theme = getTheme(settings.theme);\n\n  return <AppProvider theme={theme}>{children}</AppProvider>;\n};\n"],"names":[],"mappings":";;;;AAEA;;;;;;AAFA;;;;AAOO,MAAM,cAAqC,CAAC,EAAE,QAAQ,EAAE;IAC7D,MAAM,WAAW;IACjB,MAAM,QAAQ,SAAS,SAAS,KAAK;IAErC,qBAAO,8OAAC,sKAAA,CAAA,cAAW;QAAC,OAAO;kBAAQ;;;;;;AACrC","debugId":null}}]
-}

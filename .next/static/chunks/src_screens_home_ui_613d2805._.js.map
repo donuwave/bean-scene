@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/donu/frontend/bean-scene/src/screens/home/ui/home.styles.ts"],"sourcesContent":["import styled from \"styled-components\";\n\nexport const SHome = styled.div`\n  background-image: url(\"/header.jpg\");\n  width: 100%;\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat;\n  height: 100vh;\n  padding-top: 200px;\n`;\n"],"names":[],"mappings":";;;AAAA;;AAEO,MAAM,QAAQ,yLAAA,CAAA,UAAM,CAAC,GAAG,CAAC;;;;;;;;AAQhC,CAAC","debugId":null}},
-    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":["file:///Users/donu/frontend/bean-scene/src/screens/home/ui/Home.tsx"],"sourcesContent":["\"use client\";\n\nimport React from \"react\";\n\nimport { SHome } from \"./home.styles\";\n\nexport const Home = () => {\n  return <SHome>ff</SHome>;\n};\n"],"names":[],"mappings":";;;;AAIA;AAJA;;;AAMO,MAAM,OAAO;IAClB,qBAAO,6LAAC,iJAAA,CAAA,QAAK;kBAAC;;;;;;AAChB;KAFa","debugId":null}}]
-}
