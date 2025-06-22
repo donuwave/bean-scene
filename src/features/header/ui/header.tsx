@@ -4,8 +4,9 @@ import { usePathname } from "next/navigation";
 import React from "react";
 
 import { getMenu } from "@/features/header";
+import { Button } from "@/shared/ui";
 
-import { SHeader, SLogo, SMenuItem, SMenuList } from "./header.styles";
+import { SHeader, SLinks, SLogo, SMenuItem, SMenuList } from "./header.styles";
 
 export const Header = () => {
   const menuList = getMenu();
@@ -25,7 +26,12 @@ export const Header = () => {
           );
         })}
       </SMenuList>
-      <div>f </div>
+      <SLinks>
+        <SMenuItem $selected={true} href="/">
+          Sign In
+        </SMenuItem>
+        <Button type="m">SignUp</Button>
+      </SLinks>
     </SHeader>
   );
 };

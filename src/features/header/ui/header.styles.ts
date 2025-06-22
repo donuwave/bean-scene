@@ -30,3 +30,8 @@ export const SMenuItem = styled(Link)<IMenuItem>`
   color: white;
   text-decoration: ${({ $selected }) => ($selected ? "underline" : "none")};
 `;
+export const SLinks = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 25px;
+`;

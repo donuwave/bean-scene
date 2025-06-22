@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Button } from "@/shared/ui";
+
 import { SCoffee, SDescription, SHomeMain, SInfo } from "./home-main.styles";
 
 export const HomeMain = () => {
@@ -13,6 +15,7 @@ export const HomeMain = () => {
           flavours coffee you will ever have. We provide the best for our
           customers.
         </SDescription>
+        <Button type="m">Order Now</Button>
       </SInfo>
     </SHomeMain>
   );

@@ -1,3 +1,3 @@
-export * from "./ui/Header";
+export * from "./ui/header";
 
 export * from "./lib/get-menu";

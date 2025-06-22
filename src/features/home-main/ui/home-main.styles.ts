@@ -22,4 +22,5 @@ export const SCoffee = styled.h1`
 
 export const SDescription = styled.p`
   max-width: 530px;
+  padding-bottom: 20px;
 `;
