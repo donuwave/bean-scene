@@ -5,7 +5,7 @@ export const SHomeMain = styled.div`
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: calc(100vh - 200px);
+  height: 100dvh;
   padding-top: 200px;
 `;
 
