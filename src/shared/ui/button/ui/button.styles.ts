@@ -27,7 +27,7 @@ export const SButton = styled.button<IButtonStyles>`
       color: #603809;
     `}
 
-  ${({ $type }) =>
+  ${({ $type, $isShadow }) =>
     $type === "m" &&
     css`
       font-family: var(--font-playfair-sans), serif;
@@ -37,6 +37,6 @@ export const SButton = styled.button<IButtonStyles>`
       font-weight: bold;
       height: 48px;
       padding: 0 30px;
-      box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.3);
+      box-shadow: ${$isShadow ? "0 16px 32px 0 rgba(0, 0, 0, 0.3)" : null};
     `}
 `;
