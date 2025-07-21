@@ -7,6 +7,7 @@ export const SHomeMain = styled.div`
   background-repeat: no-repeat;
   height: 100dvh;
   padding-top: 200px;
+  scroll-snap-align: start;
 `;
 
 export const SInfo = styled.div`

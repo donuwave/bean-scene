@@ -25,5 +25,4 @@ export const SList = styled.div`
   width: 100%;
   grid-template-columns: repeat(4, 1fr);
   gap: 18px;
-  padding-bottom: 100px;
 `;

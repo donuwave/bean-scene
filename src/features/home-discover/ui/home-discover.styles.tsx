@@ -28,7 +28,7 @@ export const SBody = styled.p`
 export const SInfo = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 60px;
   align-items: start;
   justify-items: start;
   height: 100%;
